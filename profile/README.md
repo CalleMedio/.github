@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" alt="CalleMedio logo" width="120">
+  <img src="assets/logo.svg" alt="CalleMedio logo" width="120">
 </p>
 
 # CalleMedio
