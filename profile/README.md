@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.png" alt="CalleMedio logo" width="120">
+</p>
+
 # CalleMedio
 
 **Software studio building SaaS products** — cloud-native, multi-tenant platforms for real-world industries. Based in Miami, FL.
