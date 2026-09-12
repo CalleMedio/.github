@@ -5,7 +5,9 @@ on:
       node-version: { type: string, default: '20' }
 jobs:
   build-test:
-    runs-on: ubuntu-latest
+    # La org no arranca jobs hospedados (facturacion) y la decision es correr todo en el homelab.
+
+    runs-on: ${{ vars.RUNNER_LINUX || 'ubuntu-latest' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
